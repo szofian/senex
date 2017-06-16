@@ -1145,6 +1145,12 @@ img.mfp-img {
     position: relative;
   }
 
+.wrapsection-small {
+	padding-top:70px;
+	padding-bottom:30px;
+	position: relative;
+}
+
 .parallax.section .container{
 	position: relative;
 	z-index: 4;
