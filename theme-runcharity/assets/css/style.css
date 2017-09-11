@@ -127,12 +127,6 @@ img {
 	color: #fff;
 }
 
-.left-section {
-	float:left;
-	width:50%;
-	background-color: red;
-}
-
 .right-section {
 	float:right;
 	width:50%;
@@ -1222,6 +1216,12 @@ img.mfp-img {
 	display: inline-flex;
 	margin-right:20px;
 }
+
+.senex-logo {
+	max-width:260px;
+	min-width:200px;
+	margin:10px;
+}
 /*	Responsive	==================================================*/ 
 @media (max-width:991px) {
 	.service-box {
@@ -1237,8 +1237,6 @@ img.mfp-img {
 }
 @media (max-width:767px) {
 	.section,.parallax.section .container {
-					padding-top:30px;
-					padding-bottom:30px;
 	}
 	.service-box,.img-responsive,.carousel {
 					margin-bottom:30px;
@@ -1288,7 +1286,7 @@ img.mfp-img {
 					font-size:18px;
 	}
 	.section {
-					padding:60px 0;
+
 	}
 	.maintitle p.lead {
 					margin-bottom:40px;
@@ -1328,5 +1326,61 @@ img.mfp-img {
 	}	
 	.faq-block {
 					margin: 0;
+	}
+}
+
+@media (max-width: 1090px) {
+	.right-section {
+		width: 100%;
+		float: none;
+		padding: 20px !important;
+	}
+	.wrapsection-small {
+		padding-bottom: 0;
+	}
+	#raw .parallax-overlay{
+		opacity: 0 !important;
+	}
+	.maintitle {
+		text-align: center !important;
+		padding: 20px !important;
+	}
+	.maintitle h3 {
+		font-size: 5vw !important;
+	}
+	.maintitle li,p {
+		font-size: 3vw !important;
+	}
+	#watertreat .section-title, .btn {
+		margin-left: 0 !important;
+	}
+	ul {
+		margin-bottom: 10px !important;
+	}
+	.senex-logo {
+		max-width: 120px;
+		min-width: 100px;
+	}
+	#aboutus {
+		margin-top: 65px !important;
+	}
+	ul a {
+		border-top: none !important;
+	}
+	#mobile-section-plant {
+		display: block !important;
+	}
+	#mobile-section-factory {
+		display: block !important;
+	}
+}
+
+@media (max-width: 1100px) {
+	.senex-logo {
+		max-width: 140px;
+		min-width: 130px;
+	}
+	#aboutus {
+		margin-top: 65px !important;
 	}
 }

@@ -385,4 +385,13 @@ function parallax() {
 
 
 	});
+
+function sendMail() {
+    var link = "mailto:senex@senex.hu"
+            + "?cc="+document.getElementById('email').value
+            + "&subject=" + "kapcsolatfelvétel"
+            + "&body=" + encodeURI(document.getElementById('message').value +"\n" + document.getElementById('name').value + "\n" + document.getElementById('phone').value)
+        ;
+    window.location.href = link;
+}
 	

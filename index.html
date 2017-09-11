@@ -43,7 +43,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <div style="max-width:260px; min-width:200px; margin:10px;">
+            <div class="senex-logo">
                 <img class="" style="width: 100%; display:inline;"
                      src="documentation-runcharity/senex_images/SenexLogo_hu.jpg"/>
             </div>
@@ -81,7 +81,6 @@
          style="background-image: url(./documentation-runcharity/senex_images/dark_green_plant-wallpaper-2560x1440.jpg); margin-top: 118px;">
     <div class="wrapsection-small">
         <div class="parallax-overlay"></div>
-        <div class="left-section"></div>
         <div class="right-section" style="background-color: #193a2b;">
             <!-- Title -->
             <div class="maintitle">
@@ -121,7 +120,7 @@
          style="background-image: url(./documentation-runcharity/senex_images/3_water-in-glass-1526862.jpg);">
     <div class="wrapsection-small">
         <div class="parallax-overlay"></div>
-        <div class="left-section"></div>
+        <!--<div class="left-section"></div>-->
         <div class="right-section" style="background-color: #37494d;">
             <div class="maintitle">
                 <h3 class="section-title">Tevékenységeink</h3>
@@ -145,6 +144,19 @@
         </div>
     </div>
 </section>
+<!--Mobile version section pic-->
+<section id="mobile-section-factory" class="parallax section"
+         style="background-image: url(./documentation-runcharity/senex_images/11_smokestack-1257879.jpg);min-height:280px; display: none;">
+    <div class="wrapsection-small">
+        <div class="parallax-overlay" style="min-height:280px;"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- Water treat
 	================================================== -->
 <section id="watertreat" class="parallax section"
@@ -155,7 +167,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <!-- Title -->
-                    <div class="maintitle" style="color: #006763; padding:50px; text-align: left" ;>
+                    <div class="maintitle" style="color: #006763; padding:50px; text-align: left;">
                         <h3 class="section-title" style="margin-left: 120px;"><strong>Szennyvíztisztítás</strong></h3>
                         <p class="lead" style="font-size: 2.5vh;line-height: 1.8;">
                             Komplett biológiai szennyvíztisztítókat, technológiai megoldásokat kínálunk a kommunális
@@ -166,6 +178,19 @@
                         </p>
                         <a href="http://aquatec.hu" type="button" class="btn btn-primary" style="margin-left: 120px;">Tovább</a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Mobile version section pic-->
+<section id="mobile-section-plant" class="parallax section"
+         style="background-image: url(./documentation-runcharity/senex_images/dark_green_plant-wallpaper-2560x1440.jpg);min-height:280px; display: none;">
+    <div class="wrapsection-small">
+        <div class="parallax-overlay" style="min-height:280px;"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
                 </div>
             </div>
         </div>
@@ -304,7 +329,7 @@
                                 <textarea name="message" id="message" required></textarea>
                             </div>
                             <div class="wow fadeIn animated" data-wow-delay="0.3" data-wow-duration="1.5s">
-                                <input id="submit" type="submit" name="submit" value="Küldés"/>
+                                <input onclick="sendMail()" id="submit" type="submit" name="submit" value="Küldés"/>
                             </div>
                         </fieldset>
                     </form>
@@ -315,7 +340,7 @@
                     </div>
                     <div id="error">
                         <p class="contactalert">
-                            Something went wrong, try refreshing and submitting the form again.
+                            Hamarosan megnyílik üzenete saját e-mail küldő rendszerében. Új e-mail küldéséhez frissítse az oldalt.
                         </p>
                     </div>
                 </div>
