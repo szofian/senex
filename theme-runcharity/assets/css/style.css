@@ -1341,9 +1341,6 @@ img.mfp-img {
 	#raw .parallax-overlay{
 		opacity: 0 !important;
 	}
-	#raw {
-		background-image: url(../../../documentation-runcharity/senex_images/water-mobile.png)
-	}
 	.maintitle {
 		text-align: center !important;
 		padding: 20px !important;
@@ -1375,6 +1372,18 @@ img.mfp-img {
 	}
 	#mobile-section-factory {
 		display: block !important;
+	}
+	#mobile-section-bubble {
+		display: block !important;
+	}
+	#unio-logo{
+		height: 150px !important;
+	}
+	#unio > div > div.container > div > div > div > p:nth-child(2){
+		margin-bottom: 150px !important;
+	}
+	#permanent-logo{
+		display: none;
 	}
 }
 
